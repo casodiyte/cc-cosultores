@@ -50,6 +50,11 @@ export const metadata = {
     description: 'No dejes tus derechos laborales al azar. Un experto está listo para analizar tu caso hoy mismo.',
     images: ['https://raw.githubusercontent.com/casodiyte/imagenes/refs/heads/main/Picsart_26-03-07_12-57-34-298%20(1).png'],
   },
+  icons: {
+    icon: 'https://raw.githubusercontent.com/casodiyte/imagenes/refs/heads/main/07e9ee9a-b1b7-4d91-b19d-2ba9ed40bb6e.jpg',
+    shortcut: 'https://raw.githubusercontent.com/casodiyte/imagenes/refs/heads/main/07e9ee9a-b1b7-4d91-b19d-2ba9ed40bb6e.jpg',
+    apple: 'https://raw.githubusercontent.com/casodiyte/imagenes/refs/heads/main/07e9ee9a-b1b7-4d91-b19d-2ba9ed40bb6e.jpg',
+  },
 };
 
 const jsonLd = {
