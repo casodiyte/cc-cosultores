@@ -3,8 +3,16 @@ import { Target, Users, Search, Building2, CheckCircle2, Award, Scale, Briefcase
 import styles from './page.module.css';
 
 export const metadata = {
-    title: 'Nosotros | C&C Consultores',
-    description: 'Conoce nuestra historia, misión y los valores que respaldan nuestra labor como expertos en seguridad social.',
+    title: 'Nosotros',
+    description: 'Conoce la historia, misión y metodología estratégica de C&C Consultores. Más de 10 años protegiendo el futuro laboral y pensión de los mexicanos.',
+    alternates: {
+        canonical: 'https://cc-consultores.com/nosotros',
+    },
+    openGraph: {
+        title: 'Nosotros | C&C Consultores',
+        description: 'Más de 10 años protegiendo el futuro laboral y pensión de los mexicanos.',
+        url: 'https://cc-consultores.com/nosotros',
+    }
 };
 
 export default function NosotrosPage() {

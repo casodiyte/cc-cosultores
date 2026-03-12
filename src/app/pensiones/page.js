@@ -5,8 +5,16 @@ import StepList from '@/components/StepList';
 import styles from './page.module.css';
 
 export const metadata = {
-    title: 'Asesoría de Pensiones | C&C Consultores',
-    description: 'Estrategias de pensión, Modalidad 40, proyecciones y trámites para asegurar tu retiro.',
+    title: 'Asesoría Integral en Pensiones',
+    description: 'Asegura tu futuro con nuestra Asesoría en Pensiones IMSS. Optimizamos tu pensión mediante Ley 73, Modalidad 40, cálculos y proyecciones exactas.',
+    alternates: {
+        canonical: 'https://cc-consultores.com/pensiones',
+    },
+    openGraph: {
+        title: 'Pensiones | C&C Consultores',
+        description: 'Asesoría en Pensiones IMSS. Optimizamos tu pensión mediante Ley 73 y Modalidad 40.',
+        url: 'https://cc-consultores.com/pensiones',
+    }
 };
 
 export default function PensionesPage() {

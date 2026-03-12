@@ -3,8 +3,16 @@ import { ShieldCheck, ArrowRight, TrendingUp, HeartPulse, HardDrive, FileText, C
 import styles from './page.module.css';
 
 export const metadata = {
-    title: 'Todos los Servicios | C&C Consultores',
-    description: 'Catálogo completo de servicios: Pensiones, Trámites IMSS, Infonavit y Gestoría Administrativa.',
+    title: 'Nuestros Servicios',
+    description: 'Catálogo de soluciones de C&C Consultores: Especialistas en Pensiones, Ley 73, Trámites del IMSS, Recuperación de Afore e Infonavit, y Gestoría Administrativa.',
+    alternates: {
+        canonical: 'https://cc-consultores.com/servicios',
+    },
+    openGraph: {
+        title: 'Servicios | C&C Consultores',
+        description: 'Especialistas en Pensiones, Ley 73, Trámites del IMSS, Recuperación de Afore e Infonavit.',
+        url: 'https://cc-consultores.com/servicios',
+    }
 };
 
 export default function ServiciosPage() {
