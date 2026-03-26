@@ -60,11 +60,11 @@ export default function Home() {
             </div>
             <div className={styles.badge}>Consultoría y Gestoría Administrativa</div>
             <h1 className={styles.heroTitle}>
-              Soluciones integrales para tu retiro y <span className={styles.textAccent}>trámites oficiales</span>
+              La mejor solución para tu <span className={styles.textAccent}>retiro y pensión</span>
             </h1>
+            <p className={styles.heroSubtitleLarge}>Otros trámites</p>
             <p className={styles.heroSub}>
-              C&C Consultores te brinda el acompañamiento estratégico, administrativo y legal
-              necesario para asegurar tu futuro, ahorrándote tiempo y dolores de cabeza en oficinas gubernamentales.
+              C&C Consultores te dará la mejor asesoría de pensión para que tu retiro te brinde la seguridad que necesitas, para ti y tu familia. Generamos la mejor estrategia de inversión para que tomes la mejor decisión.
             </p>
             <div className={styles.heroActions}>
               <Link href="/servicios" className={styles.btnPrimary}>
@@ -80,15 +80,19 @@ export default function Home() {
             <div className={styles.trustBanner}>
               <div className={styles.trustItem}>
                 <ShieldCheck className={styles.trustIcon} />
-                <span>Gestión Legal</span>
+                <span>100% Seguro</span>
               </div>
               <div className={styles.trustItem}>
                 <TrendingUp className={styles.trustIcon} />
-                <span>Estrategia Comprobada</span>
+                <span>100% Confiable</span>
               </div>
               <div className={styles.trustItem}>
                 <CheckCircle2 className={styles.trustIcon} />
-                <span>100% Confidencial</span>
+                <span>100% Eficaz</span>
+              </div>
+              <div className={styles.trustItem}>
+                <Search className={styles.trustIcon} />
+                <span>Déjalo en manos de expertos</span>
               </div>
             </div>
           </div>

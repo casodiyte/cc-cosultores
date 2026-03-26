@@ -44,7 +44,6 @@ export default function ServiciosPage() {
             <div className={styles.stickyNav}>
                 <div className="container">
                     <div className={styles.navScroller}>
-                        <a href="#pensiones" className={styles.navLink}>Pensiones</a>
                         <a href="#imss" className={styles.navLink}>IMSS</a>
                         <a href="#infonavit" className={styles.navLink}>Infonavit & Afore</a>
                         <a href="#gestoria" className={styles.navLink}>Gestoría Administrativa</a>
@@ -54,34 +53,6 @@ export default function ServiciosPage() {
 
             <div className={styles.contentWrapper}>
                 <div className="container">
-
-                    {/* SECTION 1: PENSIONES */}
-                    <section id="pensiones" className={styles.serviceBlock}>
-                        <div className={styles.blockHeader}>
-                            <div className={`${styles.iconWrap} ${styles.iconRedBg}`}>
-                                <TrendingUp size={28} className={styles.iconRed} />
-                            </div>
-                            <h2>Asesoría de Pensiones</h2>
-                            <p>Maximizamos los beneficios de tu retiro laboral con estrategias diseñadas a tu medida basándonos en tu historial salarial.</p>
-                        </div>
-
-                        <div className={styles.cardsGrid}>
-                            <ServiceDetailCard title="Estrategia y Proyección" desc="Evaluación de escenarios financieros y cálculo exacto de la pensión considerando tu último salario base." />
-                            <ServiceDetailCard title="Modalidad 40" desc="Planeación estratégica para maximizar tus aportaciones voluntarias y mejorar dramáticamente tu promedio salarial." />
-                            <ServiceDetailCard title="Modalidad 10" desc="Incorporación voluntaria al régimen obligatorio para trabajadores independientes." />
-                            <ServiceDetailCard title="Recuperación de Afore" desc="Trámites de recuperación de montos remanentes concentrados en tus subcuentas SAR 92 y Retiro 97." />
-                            <ServiceDetailCard title="Negativas de Pensión" desc="Asesoría experta ante resoluciones o negativas por parte del Instituto para encontrar rutas viables." />
-                            <ServiceDetailCard title="Viudez y Orfandad" desc="Trámite, apelación y gestión cuidadosa de expedientes para transferir la pensión a beneficiarios legales." />
-                            <ServiceDetailCard title="Validación de Requisitos" desc="Revisión documental exhaustiva de tu expediente previo al trámite para asegurar factibilidad inmediata." />
-                            <ServiceDetailCard title="Guía Paso a Paso" desc="Ruta de acompañamiento integral desde la baja laboral hasta la obtención de tu primer pago." />
-                        </div>
-
-                        <div className={styles.blockFooter}>
-                            <Link href="/pensiones" className={styles.detailBtn}>
-                                Ver Metodología Completa de Pensiones <ArrowRight size={16} />
-                            </Link>
-                        </div>
-                    </section>
 
                     {/* SECTION 2: IMSS */}
                     <section id="imss" className={styles.serviceBlock}>

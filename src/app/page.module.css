@@ -88,6 +88,14 @@
   color: var(--color-primary);
 }
 
+.heroSubtitleLarge {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
 .heroSub {
   font-size: 1.25rem;
   color: #CBD5E1;
