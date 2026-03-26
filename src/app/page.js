@@ -72,7 +72,11 @@ export default function Home() {
               </Link>
               <a href="https://wa.me/525543157421" target="_blank" rel="noopener noreferrer" className={styles.btnSecondary}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
-                WhatsApp Oficial
+                Asesoría 1
+              </a>
+              <a href="https://wa.me/525514118922" target="_blank" rel="noopener noreferrer" className={styles.btnSecondary}>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
+                Asesoría 2
               </a>
             </div>
 
@@ -371,7 +375,13 @@ export default function Home() {
               <a href="https://wa.me/525543157421" target="_blank" rel="noopener noreferrer" className={styles.btnWhatsApp}>
                 <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
-                  Chatear por WhatsApp
+                  WhatsApp Asesoría 1
+                </span>
+              </a>
+              <a href="https://wa.me/525514118922" target="_blank" rel="noopener noreferrer" className={styles.btnWhatsApp}>
+                <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
+                  WhatsApp Asesoría 2
                 </span>
               </a>
             </div>
