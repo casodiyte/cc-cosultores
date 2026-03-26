@@ -97,7 +97,7 @@ export default function Navigation() {
                 </nav>
 
                 <div className={styles.sidebarFooter}>
-                    <a href="https://wa.me/525514118922" target="_blank" rel="noopener noreferrer" className={styles.contactBtn} onClick={() => setIsOpen(false)}>
+                    <a href="https://wa.me/525543157421" target="_blank" rel="noopener noreferrer" className={styles.contactBtn} onClick={() => setIsOpen(false)}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
                         Contactar Asesor
                     </a>
